@@ -3,288 +3,970 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My IBI Group / TTIE efoil order — a buyer’s record</title>
-  <meta name="description" content="First-person record of an efoil order placed with IBI Group and TTIE (Malaysia) on DDP terms to New York, including documents I was sent after a UAE stop and return." />
+  <title>IBI Group / TTIE efoil order — DDP Malaysia to New York | Ian Schechter buyer record</title>
+  <meta name="description" content="First-person buyer record of an Elite efoil order with IBI Group and TTIE (Petaling Jaya, Malaysia) on DDP USA-NY terms. Agent Mingonn, contact Elaine, Wise kharmuny. UAE / JAFZA papers, storage and return fees. Documents I was sent — not a court finding." />
   <meta name="robots" content="index,follow" />
   <meta name="author" content="Ian Schechter" />
-  <meta property="og:title" content="What happened with my IBI Group / TTIE efoil order" />
-  <meta property="og:description" content="First-person buyer record of a DDP efoil order with IBI Group and TTIE (Malaysia), including documents I was sent after a UAE stop and return." />
+  <meta name="keywords" content="IBI Group, TTIE, efoil, DDP, Malaysia, Mingonn, Elaine, Petaling Jaya, JAFZA, buyer record" />
+  <link rel="canonical" href="https://mrschechter.github.io/ibi-ttie-efoil-order/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#111110" />
+
+  <meta property="og:title" content="IBI Group / TTIE efoil order — a buyer’s record" />
+  <meta property="og:description" content="Ian Schechter’s first-person record of a DDP USA-NY efoil order with IBI Group and TTIE (Malaysia): ~$10,000 paid, goods never arrived, then storage and return bills. Documents I was sent after a UAE stop." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://mrschechter.github.io/ibi-ttie-efoil-order/" />
-  <link rel="canonical" href="https://mrschechter.github.io/ibi-ttie-efoil-order/" />
+  <meta property="og:image" content="https://mrschechter.github.io/ibi-ttie-efoil-order/assets/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="IBI Group / TTIE efoil order — a buyer’s record" />
+  <meta name="twitter:description" content="First-person DDP USA-NY efoil order with IBI Group and TTIE (Malaysia). Mingonn, Elaine, Wise kharmuny. Documents I was sent." />
+  <meta name="twitter:image" content="https://mrschechter.github.io/ibi-ttie-efoil-order/assets/og.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Schibsted+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "What happened with my IBI Group / TTIE efoil order",
+    "description": "First-person buyer record of an efoil order placed with IBI Group and TTIE (Malaysia) on DDP terms to New York, including documents sent after a UAE stop and return.",
+    "author": { "@type": "Person", "name": "Ian Schechter" },
+    "dateModified": "2026-08-19",
+    "inLanguage": "en",
+    "url": "https://mrschechter.github.io/ibi-ttie-efoil-order/",
+    "image": "https://mrschechter.github.io/ibi-ttie-efoil-order/assets/og.png",
+    "about": ["IBI Group", "TTIE", "efoil", "DDP", "Malaysia"]
+  }
+  </script>
+
   <style>
     :root {
-      --bg: #f6f3ee;
-      --ink: #1a1814;
-      --muted: #5c574e;
-      --line: #d9d2c6;
-      --card: #fffdf8;
-      --accent: #8a2d1b;
+      --bg: #e8e8e4;
+      --ink: #121211;
+      --muted: #534f4a;
+      --faint: #7a766e;
+      --line: #cfcfc8;
+      --line-strong: #a8a69e;
+      --paper: #ffffff;
+      --field: #f4f4f1;
+      --accent: #9f2b16;
+      --accent-hot: #e24a2b;
+      --mast: rgba(17, 17, 16, 0.92);
+      --hero: #111110;
+      --hero-ink: #f4f3ef;
+      --hero-muted: #b4b1a8;
+      --hero-line: #3a3936;
+      --display: "Schibsted Grotesk", Inter, ui-sans-serif, system-ui, sans-serif;
+      --sans: "IBM Plex Sans", Inter, ui-sans-serif, system-ui, sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", monospace;
+      --wrap: 1220px;
+      --gutter: clamp(18px, 4vw, 44px);
     }
+
     * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
     body {
-      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      font-family: var(--sans);
+      font-size: 17px;
       line-height: 1.55;
-      font-size: 18px;
+      font-feature-settings: "ss01", "kern";
     }
-    header, main, footer { max-width: 740px; margin: 0 auto; padding: 0 22px; }
-    header { padding-top: 56px; padding-bottom: 12px; }
-    .kicker {
-      font-family: ui-sans-serif, system-ui, sans-serif;
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--accent); text-underline-offset: 0.18em; }
+    a:hover { color: var(--ink); }
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+
+    .skip {
+      position: absolute;
+      left: 12px;
+      top: -40px;
+      background: var(--ink);
+      color: var(--paper);
+      padding: 8px 12px;
+      z-index: 80;
+      font-size: 13px;
+    }
+    .skip:focus { top: 12px; }
+
+    .wrap {
+      width: min(var(--wrap), 100%);
+      margin: 0 auto;
+      padding: 0 var(--gutter);
+    }
+
+    /* —— mast —— */
+    .mast {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: var(--mast);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--hero-line);
+    }
+    .mast-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      align-items: center;
+      gap: 16px;
+      min-height: 52px;
+    }
+    .mast-file {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-hot);
+      white-space: nowrap;
+    }
+    .mast-names {
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: -0.02em;
+      text-align: center;
+      color: var(--hero-ink);
+      text-decoration: none;
+    }
+    .mast-nav {
+      display: flex;
+      justify-content: flex-end;
+      gap: 18px;
+    }
+    .mast-nav a {
       font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--hero-muted);
+    }
+    .mast-nav a:hover { color: var(--hero-ink); }
+
+    /* —— hero —— */
+    .hero-band {
+      background: var(--hero);
+      color: var(--hero-ink);
+    }
+    .hero {
+      padding: 64px 0 0;
+    }
+    .kicker {
+      margin: 0 0 18px;
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent-hot);
+    }
+    h1 {
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: clamp(2.5rem, 7vw, 5.15rem);
+      line-height: 0.94;
+      letter-spacing: -0.04em;
+      margin: 0 0 22px;
+      max-width: 15ch;
+      color: var(--hero-ink);
+    }
+    h1 .names { display: block; }
+    .lede {
+      margin: 0 0 20px;
+      max-width: 40rem;
+      font-size: clamp(1.2rem, 2.1vw, 1.45rem);
+      line-height: 1.38;
+      color: var(--hero-muted);
+    }
+    .meta {
+      margin: 0 0 44px;
+      font-size: 13px;
+      color: #8a877f;
+    }
+
+    .strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      border-top: 1px solid var(--hero-ink);
+    }
+    .strip article {
+      padding: 28px 22px 36px 0;
+      border-right: 1px solid var(--hero-line);
+    }
+    .strip article:last-child { border-right: 0; padding-right: 0; }
+    .strip article:first-child { padding-left: 0; }
+    .strip dt {
+      margin: 0 0 10px;
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent-hot);
+    }
+    .strip dd {
+      margin: 0;
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: clamp(1.45rem, 2.4vw, 1.95rem);
+      letter-spacing: -0.035em;
+      line-height: 1.1;
+      color: var(--hero-ink);
+    }
+    .strip p {
+      margin: 10px 0 0;
+      font-size: 14px;
+      color: var(--hero-muted);
+      line-height: 1.4;
+    }
+
+    /* —— notice —— */
+    .notice {
+      margin: 36px 0 8px;
+      padding: 18px 20px;
+      border: 1px solid var(--ink);
+      background: var(--paper);
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .notice strong { color: var(--ink); font-weight: 600; }
+
+    /* —— sections —— */
+    section { padding: 64px 0 8px; }
+    .sec-head {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      margin: 0 0 28px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    .sec-idx {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+    }
+    h2 {
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: clamp(1.6rem, 3vw, 2.15rem);
+      letter-spacing: -0.03em;
+      margin: 0;
+      line-height: 1.1;
+    }
+    h3 {
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+      margin: 0 0 10px;
+    }
+    p { margin: 0 0 1em; }
+    .prose { max-width: 42rem; }
+
+    /* —— parties —— */
+    .parties {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 1px;
+      background: var(--ink);
+      border: 1px solid var(--ink);
+    }
+    .party {
+      grid-column: span 2;
+      background: var(--paper);
+      padding: 24px 22px 26px;
+      margin: 0;
+    }
+    .party:nth-last-child(-n+2) { grid-column: span 3; }
+    .party dt {
+      font-family: var(--mono);
+      font-size: 11px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: var(--accent);
-      margin: 0 0 12px;
+      margin: 0 0 8px;
     }
-    h1 { font-size: 34px; line-height: 1.15; margin: 0 0 16px; font-weight: 600; }
-    h2 { font-size: 22px; margin: 40px 0 12px; }
-    h3 { font-size: 17px; margin: 28px 0 8px; }
-    .lede { font-size: 20px; color: var(--muted); margin: 0 0 24px; }
-    .notice {
-      background: var(--card);
-      border: 1px solid var(--line);
-      padding: 16px 18px;
-      font-family: ui-sans-serif, system-ui, sans-serif;
-      font-size: 14px;
-      color: var(--muted);
-      margin: 24px 0 36px;
-    }
-    .meta {
-      font-family: ui-sans-serif, system-ui, sans-serif;
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 28px;
-    }
-    dl { display: grid; grid-template-columns: 160px 1fr; gap: 8px 16px; margin: 0 0 28px; }
-    dt { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px; color: var(--muted); }
-    dd { margin: 0; }
-    .timeline { list-style: none; padding: 0; margin: 0 0 32px; }
-    .timeline li {
-      padding: 14px 0 14px 18px;
-      border-left: 2px solid var(--line);
+    .party dd {
       margin: 0;
+      font-size: 15px;
+      line-height: 1.45;
     }
-    .timeline time {
+    .party .who {
       display: block;
-      font-family: ui-sans-serif, system-ui, sans-serif;
-      font-size: 12px;
-      letter-spacing: 0.06em;
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: 1.35rem;
+      letter-spacing: -0.03em;
+      margin-bottom: 8px;
+    }
+    .paid-note {
+      margin-top: 16px;
+      padding: 18px 20px;
+      background: var(--paper);
+      border-left: 3px solid var(--accent);
+      font-size: 15px;
+    }
+
+    /* —— timeline —— */
+    .rail {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .rail li {
+      display: grid;
+      grid-template-columns: 148px 22px 1fr;
+      gap: 0 8px;
+      align-items: start;
+    }
+    .rail time {
+      font-family: var(--mono);
+      font-size: 13px;
+      letter-spacing: 0.04em;
       text-transform: uppercase;
       color: var(--accent);
-      margin-bottom: 4px;
+      padding-top: 2px;
+      font-weight: 500;
     }
-    figure { margin: 20px 0 8px; }
-    figure img { width: 100%; height: auto; border: 1px solid var(--line); background: #fff; }
-    figcaption {
-      font-family: ui-sans-serif, system-ui, sans-serif;
-      font-size: 13px;
-      color: var(--muted);
-      margin-top: 8px;
+    .rail .dot {
+      position: relative;
+      min-height: 100%;
     }
+    .rail .dot::before {
+      content: "";
+      position: absolute;
+      left: 7px;
+      top: 8px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 3px var(--bg);
+      z-index: 1;
+    }
+    .rail .dot::after {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: var(--line-strong);
+    }
+    .rail li:first-child .dot::after { top: 12px; }
+    .rail li:last-child .dot::after { height: 12px; }
+    .rail .body {
+      padding: 0 0 36px 12px;
+      color: var(--ink);
+      font-size: 16.5px;
+    }
+    .rail .body p { margin: 0; }
+
+    /* —— exhibits —— */
+    .exhibits-lede { max-width: 46rem; margin-bottom: 28px; }
     .exhibit {
-      background: var(--card);
-      border: 1px solid var(--line);
-      padding: 16px 18px;
-      margin: 16px 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
+      gap: 0;
+      margin: 0 0 28px;
+      background: var(--paper);
+      border: 1px solid var(--ink);
     }
-    .exhibit h3 { margin-top: 0; }
-    ul.flags { padding-left: 18px; }
-    .quote {
-      border-left: 3px solid var(--line);
-      padding: 4px 0 4px 16px;
+    .exhibit figure {
+      margin: 0;
+      padding: 18px 18px 16px;
+      background: #ecece8;
+      border-right: 1px solid var(--line);
+    }
+    .exhibit-copy { padding: 22px 24px 24px; }
+    .doc-frame {
+      background: #fff;
+      border: 1px solid var(--line-strong);
+    }
+    .doc-frame a { display: block; }
+    .doc-frame img { width: 100%; }
+    figcaption {
+      margin-top: 10px;
+      font-size: 13px;
+      color: var(--faint);
+    }
+    .exhibit-copy h3 { margin-bottom: 4px; }
+    .exhibit-id {
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 6px;
+    }
+    .exhibit-meta {
+      font-size: 15px;
       color: var(--muted);
-      margin: 12px 0;
+      margin: 0 0 18px;
     }
+    .callouts { list-style: none; margin: 0 0 22px; padding: 0; }
+    .callouts li {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 8px;
+      padding: 11px 0 11px 10px;
+      border-top: 1px solid var(--line);
+      border-left: 2px solid var(--accent);
+      font-size: 14.5px;
+    }
+    .callouts li:last-child { border-bottom: 1px solid var(--line); }
+    .callouts .n {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--accent);
+      padding-top: 2px;
+    }
+    .callouts strong { font-weight: 600; }
+
     table.fees {
       width: 100%;
       border-collapse: collapse;
-      font-family: ui-sans-serif, system-ui, sans-serif;
-      font-size: 14px;
-      margin: 12px 0 4px;
+      font-size: 13px;
+      margin: 8px 0 18px;
+    }
+    table.fees caption {
+      text-align: left;
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--faint);
+      padding-bottom: 8px;
     }
     table.fees th, table.fees td {
       text-align: left;
-      padding: 8px 6px;
+      padding: 8px 0;
       border-bottom: 1px solid var(--line);
+      vertical-align: top;
     }
-    table.fees th { color: var(--muted); font-weight: 500; }
-    table.fees td.num, table.fees th.num { text-align: right; }
-    a { color: var(--accent); }
-    footer {
-      padding: 40px 22px 64px;
-      font-family: ui-sans-serif, system-ui, sans-serif;
+    table.fees th {
+      font-weight: 500;
+      color: var(--faint);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    table.fees td.num, table.fees th.num {
+      text-align: right;
+      font-family: var(--mono);
+      font-variant-numeric: tabular-nums;
+    }
+    table.fees tr.total td {
+      border-bottom: none;
+      border-top: 1px solid var(--ink);
+      font-weight: 600;
+      padding-top: 10px;
+    }
+    table.fees tr.total td.num { color: var(--accent); }
+
+    .flags-head { margin: 48px 0 16px; }
+    .flags {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--ink);
+      border: 1px solid var(--ink);
+    }
+    .flags li {
+      background: var(--paper);
+      padding: 22px 22px 24px;
+      font-size: 15.5px;
+    }
+    .flags .n {
+      display: block;
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .decide {
+      margin: 18px 0 0;
+      font-size: 15px;
+      color: var(--muted);
+    }
+
+    /* —— asked —— */
+    .asked {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 0;
+    }
+    .asked li {
+      display: grid;
+      grid-template-columns: 36px 1fr;
+      gap: 12px;
+      padding: 16px 0;
+      border-top: 1px solid var(--line);
+      font-size: 16px;
+    }
+    .asked li:last-child { border-bottom: 1px solid var(--line); }
+    .asked .n {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--accent);
+      padding-top: 3px;
+    }
+
+    /* —— quotes —— */
+    .quote-stack { display: grid; gap: 12px; }
+    .quote {
+      margin: 0;
+      padding: 26px 26px 20px;
+      background: var(--paper);
+      border: 1px solid var(--ink);
+      border-left: 4px solid var(--accent);
+    }
+    .quote p {
+      margin: 0;
+      font-family: var(--display);
+      font-size: clamp(1.2rem, 2vw, 1.45rem);
+      line-height: 1.35;
+      letter-spacing: -0.025em;
+    }
+    .quote footer {
+      margin-top: 12px;
+      padding: 0;
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .quote-note, .quote-bridge {
+      max-width: 46rem;
+      color: var(--muted);
+    }
+
+    .close {
+      max-width: 44rem;
+      font-size: 1.15rem;
+      line-height: 1.5;
+    }
+
+    .others {
+      padding: 22px 24px;
+      background: var(--paper);
+      border: 1px solid var(--ink);
+      max-width: 46rem;
+    }
+
+    footer.site {
+      margin-top: 72px;
+      padding: 28px 0 56px;
+      border-top: 1px solid var(--ink);
       font-size: 13px;
       color: var(--muted);
     }
+    footer.site p { margin: 0 0 8px; }
+
+    @media (max-width: 960px) {
+      .mast-inner { grid-template-columns: 1fr auto; }
+      .mast-nav { display: none; }
+      .mast-file { display: none; }
+      .mast-names { text-align: left; font-size: 16px; }
+      .strip { grid-template-columns: 1fr 1fr; }
+      .strip article { padding: 22px 16px 26px 0; }
+      .strip article:nth-child(2n) { border-right: 0; padding-right: 0; }
+      .strip article:nth-child(-n+2) { border-bottom: 1px solid var(--hero-line); }
+      .parties { grid-template-columns: 1fr 1fr; }
+      .party, .party:nth-last-child(-n+2) { grid-column: auto; }
+      .exhibit { grid-template-columns: 1fr; }
+      .exhibit figure { border-right: 0; border-bottom: 1px solid var(--line); }
+      .flags { grid-template-columns: 1fr; }
+    }
+
     @media (max-width: 640px) {
-      h1 { font-size: 28px; }
-      dl { grid-template-columns: 1fr; }
-      dt { margin-top: 8px; }
+      .hero { padding-top: 36px; }
+      h1 { max-width: none; }
+      .strip { grid-template-columns: 1fr; }
+      .strip article {
+        border-right: 0;
+        padding: 20px 0;
+        border-bottom: 1px solid var(--hero-line);
+      }
+      .strip article:last-child { border-bottom: 0; }
+      .parties { grid-template-columns: 1fr; }
+      .party, .party:nth-last-child(-n+2) { grid-column: auto; }
+      .rail li { grid-template-columns: 16px 1fr; }
+      .rail time {
+        grid-column: 2;
+        margin-bottom: 4px;
+      }
+      .rail .dot { grid-row: 1 / span 2; }
+      .rail .body { padding-left: 10px; padding-bottom: 28px; }
+      section { padding-top: 48px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+
+    @media print {
+      .mast, .skip { display: none; }
+      body { background: #fff; font-size: 12pt; }
+      .exhibit { break-inside: avoid; }
+      a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <p class="kicker">Buyer record · not a court finding</p>
-    <h1>What happened with my IBI Group / TTIE efoil order</h1>
-    <p class="lede">I paid for an efoil on DDP terms to New York. The shipment went through the UAE, came back to Malaysia, and I was then asked for thousands more in storage and return fees. This page is the record I kept.</p>
-    <p class="meta">Written by Ian Schechter · last updated 19 August 2026 · first-person account</p>
+  <a class="skip" href="#record">Skip to record</a>
+
+  <header class="mast">
+    <div class="wrap mast-inner">
+      <p class="mast-file">Buyer record · not a court finding</p>
+      <a class="mast-names" href="#top">IBI Group / TTIE</a>
+      <nav class="mast-nav" aria-label="On this page">
+        <a href="#parties">Parties</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#exhibits">Exhibits</a>
+        <a href="#quotes">Quotes</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <aside class="notice">
-      This is my account of an order I placed. I am publishing documents that were sent to me, and what I was told in writing. I am not a lawyer. I am not a court. I am not stating that a crime was proven. I am not asking a reader to treat “forged” as a finding. Names and figures below come from papers and messages I have. I have left my home address and phone off this page on purpose.
-    </aside>
 
-    <h2>Who and what</h2>
-    <dl>
-      <dt>Buyer</dt>
-      <dd>Ian Schechter, New York, USA (the commercial invoice lists the consignee as “Han Schechter”)</dd>
-      <dt>Manufacturer</dt>
-      <dd>IBI group (spelled “IBI group(Manufucturer)” on the 4 April 2026 e-invoice)</dd>
-      <dt>Exporter</dt>
-      <dd>TTIE (Exporter), Jalan PJU 3, Tropicana, 47401 Petaling Jaya, Selangor, Malaysia</dd>
-      <dt>Agent</dt>
-      <dd>Referred to on the invoice as “your authorized agent, Mr. Mingonn,” also written Ming in later messages</dd>
-      <dt>Seller contact</dt>
-      <dd>Elaine, in the group chat and later emails</dd>
-      <dt>Goods</dt>
-      <dd>Efoil board, Elite version, with an “AUDI remote controler,” DDP USA-NY</dd>
-      <dt>Invoice I have</dt>
-      <dd>4 April 2026 “Balance Payment” e-invoice for <strong>$2,660.00</strong>, “shipping terms is DDP USA-NY,” “7 DAYS DELVER TO NY-USA,” payment via Wise tag <em>kharmuny</em></dd>
-      <dt>What I paid</dt>
-      <dd>I paid this company on the order. The running total I have in mind is about <strong>$10,000</strong> across the goods and the DDP shipping I was invoiced for. I am not restating every wire here. The April PI is the paper I am putting on the record.</dd>
-    </dl>
+  <div id="top" class="hero-band">
+    <section class="hero">
+      <div class="wrap">
+        <p class="kicker">Buyer record · not a court finding</p>
+        <h1>What happened with my <span class="names">IBI Group / TTIE</span> efoil order</h1>
+        <p class="lede">I paid for an efoil on DDP terms to New York. The shipment went through the UAE, came back to Malaysia, and I was then asked for thousands more in storage and return fees. This page is the record I kept.</p>
+        <p class="meta">Written by Ian Schechter · last updated 19 August 2026 · first-person account</p>
 
-    <h2>What I was sold</h2>
-    <p>DDP means Delivered Duty Paid. In the Incoterm, the seller is responsible for getting the goods to the named place and for the transport, export, import, duties, and taxes along that path. The April invoice says the shipping terms are <strong>DDP USA-NY</strong>.</p>
-    <p>I am not asking a reader to take my word for what DDP “should” mean in a fight. I am saying that is the term printed on the paper I paid against, and that later costs were presented to me as my problem anyway.</p>
+        <div class="strip" role="group" aria-label="Case at a glance">
+          <article>
+            <dl>
+              <dt>Who paid</dt>
+              <dd>Ian Schechter</dd>
+            </dl>
+            <p>Buyer, New York, USA. Invoice consignee: “Han Schechter.”</p>
+          </article>
+          <article>
+            <dl>
+              <dt>Amount</dt>
+              <dd>About $10,000</dd>
+            </dl>
+            <p>Goods and the DDP shipping I was invoiced for. April PI is the paper on the record.</p>
+          </article>
+          <article>
+            <dl>
+              <dt>Terms</dt>
+              <dd>DDP USA-NY</dd>
+            </dl>
+            <p>Elite efoil, “AUDI remote controler.” Manufacturer IBI group · exporter TTIE, Malaysia.</p>
+          </article>
+          <article>
+            <dl>
+              <dt>Outcome</dt>
+              <dd>Never arrived</dd>
+            </dl>
+            <p>UAE detour, return to Malaysia, then storage and return bills.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
 
-    <h2>Timeline as I have it</h2>
-    <ol class="timeline">
-      <li>
-        <time>4 April 2026</time>
-        E-invoice: goods ready 4 days after payment, 7-day delivery to NY, DDP USA-NY, $2,660 balance line. Seller contact numbers are on that invoice. I am not republishing them here.
-      </li>
-      <li>
-        <time>After payment</time>
-        I was given a FedEx label for a US delivery. I never got working tracking on that label. I was then told the shipment could not go that way and would route through the UAE instead.
-      </li>
-      <li>
-        <time>1–2 June 2026</time>
-        I was sent papers branded as Dubai Customs / Jebel Ali. They describe an import into the UAE (not a US entry), CIF Jebel Ali, a declaration “amount due” of <strong>$2,800.00</strong>, and a tax invoice totaling <strong>$1,445.00</strong>. Those papers are on this page.
-      </li>
-      <li>
-        <time>17 June 2026</time>
-        I asked for things a real clearance is supposed to have: a Mirsal declaration number or MAKASA barcode I could check, plus an airway bill, bill of lading, or export declaration. I was not given a Mirsal or MAKASA number I could look up. I was told the transport papers were “confidential business information relating to multiple parties.”
-      </li>
-      <li>
-        <time>After the UAE stop</time>
-        I was told the UAE charges were not paid, so the goods were shipped back to Malaysia. I was later told return shipping was about $1,000 and that storage then ran for more than a month, then about two months.
-      </li>
-      <li>
-        <time>While the crates sat</time>
-        The “outstanding” number I was given moved. On the papers: $2,800 due on the declaration, $1,445 on the tax invoice. In messages: about $3,000, then $4,245, then “more than $4K,” then $4,864 for return-plus-storage, and that it had once been “more than $6,000” and was reduced. New “storage fees” kept getting added.
-      </li>
-      <li>
-        <time>6–11 August 2026</time>
-        Ming wrote that storage was the only outstanding charge, with “no additional cost.” That sits next to the earlier line that the shipment failed and came back because UAE customs costs were not paid. I asked twice whether my own logistics company could collect the crates from Penang Port. I did not get a yes or a no. The reply moved to storage accruing daily. Elaine later wrote that the outstanding balance “has already been confirmed, so there is nothing further to discuss.”
-      </li>
-      <li>
-        <time>After return to Penang</time>
-        Elaine wrote that the product was sealed at a Penang Port shipping hub, that Ming had inspected it before packing, after packing, and after return, and that a live video from the warehouse was not possible. A photo of two sealed crates was offered instead. I asked, in writing, whether US DDP was already fully paid, what happens after I pay storage, and who pays if it goes through the UAE again.
-      </li>
-      <li>
-        <time>Elaine’s later written position</time>
-        International shipping to the USA was “already paid.” The outstanding balance was “accumulated storage charges and the return-to-sender costs.” After payment, they would ship “under the agreed DDP arrangement” with no further customs, duties, or delivery charges to me. They said they did not intend to repeat the UAE process. They said direct DDP Malaysia-to-US had not been available “due to US customs/import requirements” and “disruptions during the war,” and was “available again.” That is a different story than Ming’s “storage only / no additional cost,” and it does not say who pays if the UAE path happens again.
-      </li>
-      <li>
-        <time>My position</time>
-        I said I would not send more money except into escrow against release of the goods. I said the UAE costs and the return were their problem under the DDP term I paid. I asked for a carrier name and a quote. I did not get a FedEx or UPS quote that matched the new ask. I stopped the order.
-      </li>
-    </ol>
+  <main id="record">
+    <div class="wrap">
+      <aside class="notice">
+        This is my account of an order I placed. I am publishing documents that were sent to me, and what I was told in writing. I am <strong>not a lawyer</strong>. I am <strong>not a court</strong>. I am not stating that a crime was proven. I am not asking a reader to treat “forged” as a finding. Names and figures below come from papers and messages I have. I have left my home address and phone off this page on purpose.
+      </aside>
 
-    <h2>The papers I was sent as “Dubai Customs”</h2>
-    <p>I was given two PDFs. I am publishing first-page images and the mismatches I can see on the files themselves. I am not saying Dubai Customs issued forgeries. I am saying these are the files I received, and they do not read as a consistent official set.</p>
+      <section id="parties">
+        <div class="sec-head">
+          <span class="sec-idx">01</span>
+          <h2>Who and what</h2>
+        </div>
+        <dl class="parties">
+          <div class="party">
+            <dt>Buyer</dt>
+            <dd><span class="who">Ian Schechter</span> New York, USA (the commercial invoice lists the consignee as “Han Schechter”)</dd>
+          </div>
+          <div class="party">
+            <dt>Manufacturer</dt>
+            <dd><span class="who">IBI group</span> Spelled “IBI group(Manufucturer)” on the 4 April 2026 e-invoice</dd>
+          </div>
+          <div class="party">
+            <dt>Exporter</dt>
+            <dd><span class="who">TTIE</span> TTIE (Exporter), Jalan PJU 3, Tropicana, 47401 Petaling Jaya, Selangor, Malaysia</dd>
+          </div>
+          <div class="party">
+            <dt>Agent</dt>
+            <dd><span class="who">Mr. Mingonn</span> Referred to on the invoice as “your authorized agent, Mr. Mingonn,” also written Ming in later messages</dd>
+          </div>
+          <div class="party">
+            <dt>Seller contact</dt>
+            <dd><span class="who">Elaine</span> In the group chat and later emails</dd>
+          </div>
+          <div class="party">
+            <dt>Goods</dt>
+            <dd><span class="who">Elite efoil</span> Efoil board, Elite version, with an “AUDI remote controler,” DDP USA-NY</dd>
+          </div>
+          <div class="party">
+            <dt>Invoice I have</dt>
+            <dd><span class="who">$2,660.00</span> 4 April 2026 “Balance Payment” e-invoice, “shipping terms is DDP USA-NY,” “7 DAYS DELVER TO NY-USA,” payment via Wise tag <em>kharmuny</em></dd>
+          </div>
+          <div class="party">
+            <dt>What I paid</dt>
+            <dd><span class="who">About $10,000</span> Across the goods and the DDP shipping I was invoiced for</dd>
+          </div>
+        </dl>
+        <p class="paid-note">I paid this company on the order. The running total I have in mind is about <strong>$10,000</strong> across the goods and the DDP shipping I was invoiced for. I am not restating every wire here. The April PI is the paper I am putting on the record.</p>
+      </section>
 
-    <div class="exhibit">
-      <h3>Exhibit A — tax invoice</h3>
-      <p>Header: “Issuer: Dubai Customs,” Jebel Ali Free Zone, date 2 June 2026, invoice DC-JAF-2026-889102, declaration 40229381-001. Bill-to: TTIE. Issuer TRN and bill-to TRN are the same number. Total due <strong>$1,445.00</strong> (AED 5,306.80 at 3.6725).</p>
-      <table class="fees">
-        <thead>
-          <tr><th>Charge as printed</th><th>Basis as printed</th><th class="num">USD</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Tax Duty (5%)</td><td>Customs value $2,800.00</td><td class="num">140.00</td></tr>
-          <tr><td>JAFZA Knowledge Fee</td><td>Per declaration, fixed</td><td class="num">300.00</td></tr>
-          <tr><td>Customs Innovation Fee</td><td>Per declaration, fixed</td><td class="num">300.00</td></tr>
-          <tr><td>Terminal Handling Charges</td><td>Per shipment, fixed</td><td class="num">556.00</td></tr>
-          <tr><td>Inspection Fee</td><td>Per shipment, fixed</td><td class="num">125.00</td></tr>
-          <tr><td>Processing Fee</td><td>Per declaration, fixed</td><td class="num">24.00</td></tr>
-          <tr><td><strong>Total amount due</strong></td><td></td><td class="num"><strong>1,445.00</strong></td></tr>
-        </tbody>
-      </table>
-      <figure>
-        <img src="exhibits/dubai-invoice.png" alt="First page of a tax invoice I was sent, labeled Dubai Customs, totaling 1445 US dollars" />
-        <figcaption>First page of the tax invoice PDF I was sent. I did not add the numbers.</figcaption>
-      </figure>
+      <section id="terms">
+        <div class="sec-head">
+          <span class="sec-idx">02</span>
+          <h2>What I was sold</h2>
+        </div>
+        <div class="prose">
+          <p>DDP means Delivered Duty Paid. In the Incoterm, the seller is responsible for getting the goods to the named place and for the transport, export, import, duties, and taxes along that path. The April invoice says the shipping terms are <strong>DDP USA-NY</strong>.</p>
+          <p>I am not asking a reader to take my word for what DDP “should” mean in a fight. I am saying that is the term printed on the paper I paid against, and that later costs were presented to me as my problem anyway.</p>
+        </div>
+      </section>
+
+      <section id="timeline">
+        <div class="sec-head">
+          <span class="sec-idx">03</span>
+          <h2>Timeline as I have it</h2>
+        </div>
+        <ol class="rail">
+          <li>
+            <time datetime="2026-04-04">4 April 2026</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>E-invoice: goods ready 4 days after payment, 7-day delivery to NY, DDP USA-NY, $2,660 balance line. Seller contact numbers are on that invoice. I am not republishing them here.</p></div>
+          </li>
+          <li>
+            <time>After payment</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>I was given a FedEx label for a US delivery. I never got working tracking on that label. I was then told the shipment could not go that way and would route through the UAE instead.</p></div>
+          </li>
+          <li>
+            <time datetime="2026-06">1–2 June 2026</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>I was sent papers branded as Dubai Customs / Jebel Ali. They describe an import into the UAE (not a US entry), CIF Jebel Ali, a declaration “amount due” of <strong>$2,800.00</strong>, and a tax invoice totaling <strong>$1,445.00</strong>. Those papers are on this page.</p></div>
+          </li>
+          <li>
+            <time datetime="2026-06-17">17 June 2026</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>I asked for things a real clearance is supposed to have: a Mirsal declaration number or MAKASA barcode I could check, plus an airway bill, bill of lading, or export declaration. I was not given a Mirsal or MAKASA number I could look up. I was told the transport papers were “confidential business information relating to multiple parties.”</p></div>
+          </li>
+          <li>
+            <time>After the UAE stop</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>I was told the UAE charges were not paid, so the goods were shipped back to Malaysia. I was later told return shipping was about $1,000 and that storage then ran for more than a month, then about two months.</p></div>
+          </li>
+          <li>
+            <time>While the crates sat</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>The “outstanding” number I was given moved. On the papers: $2,800 due on the declaration, $1,445 on the tax invoice. In messages: about $3,000, then $4,245, then “more than $4K,” then $4,864 for return-plus-storage, and that it had once been “more than $6,000” and was reduced. New “storage fees” kept getting added.</p></div>
+          </li>
+          <li>
+            <time datetime="2026-08">6–11 August 2026</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>Ming wrote that storage was the only outstanding charge, with “no additional cost.” That sits next to the earlier line that the shipment failed and came back because UAE customs costs were not paid. I asked twice whether my own logistics company could collect the crates from Penang Port. I did not get a yes or a no. The reply moved to storage accruing daily. Elaine later wrote that the outstanding balance “has already been confirmed, so there is nothing further to discuss.”</p></div>
+          </li>
+          <li>
+            <time>After return to Penang</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>Elaine wrote that the product was sealed at a Penang Port shipping hub, that Ming had inspected it before packing, after packing, and after return, and that a live video from the warehouse was not possible. A photo of two sealed crates was offered instead. I asked, in writing, whether US DDP was already fully paid, what happens after I pay storage, and who pays if it goes through the UAE again.</p></div>
+          </li>
+          <li>
+            <time>Elaine’s later written position</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>International shipping to the USA was “already paid.” The outstanding balance was “accumulated storage charges and the return-to-sender costs.” After payment, they would ship “under the agreed DDP arrangement” with no further customs, duties, or delivery charges to me. They said they did not intend to repeat the UAE process. They said direct DDP Malaysia-to-US had not been available “due to US customs/import requirements” and “disruptions during the war,” and was “available again.” That is a different story than Ming’s “storage only / no additional cost,” and it does not say who pays if the UAE path happens again.</p></div>
+          </li>
+          <li>
+            <time>My position</time>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="body"><p>I said I would not send more money except into escrow against release of the goods. I said the UAE costs and the return were their problem under the DDP term I paid. I asked for a carrier name and a quote. I did not get a FedEx or UPS quote that matched the new ask. I stopped the order.</p></div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="exhibits">
+        <div class="sec-head">
+          <span class="sec-idx">04</span>
+          <h2>The papers I was sent as “Dubai Customs”</h2>
+        </div>
+        <p class="exhibits-lede">I was given two PDFs. I am publishing first-page images and the mismatches I can see on the files themselves. I am not saying Dubai Customs issued forgeries. I am saying these are the files I received, and they do not read as a consistent official set.</p>
+
+        <article class="exhibit" id="exhibit-a">
+          <figure>
+            <div class="doc-frame">
+              <a href="exhibits/dubai-invoice.png" target="_blank" rel="noopener">
+                <img src="exhibits/dubai-invoice.png" alt="First page of a tax invoice I was sent, labeled Dubai Customs, totaling 1445 US dollars" width="993" height="1404" />
+              </a>
+            </div>
+            <figcaption>First page of the tax invoice PDF I was sent. I did not add the numbers. Open full size.</figcaption>
+          </figure>
+          <div class="exhibit-copy">
+            <p class="exhibit-id">Exhibit A — tax invoice</p>
+            <h3>DC-JAF-2026-889102</h3>
+            <p class="exhibit-meta">Header: “Issuer: Dubai Customs,” Jebel Ali Free Zone, date 2 June 2026, invoice DC-JAF-2026-889102, declaration 40229381-001. Bill-to: TTIE. Issuer TRN and bill-to TRN are the same number. Total due <strong>$1,445.00</strong> (AED 5,306.80 at 3.6725).</p>
+            <ul class="callouts">
+              <li><span class="n">A1</span><span>Two amounts on one paper: customs value / duty basis <strong>$2,800.00</strong>, total due <strong>$1,445.00</strong>.</span></li>
+              <li><span class="n">A2</span><span>Same TRN <strong>100123456340067</strong> printed as issuer “Dubai Customs” and as TTIE’s number.</span></li>
+              <li><span class="n">A3</span><span>Declaration number here: <strong>40229381-001</strong> — not the number on Exhibit B.</span></li>
+              <li><span class="n">A4</span><span>JAFZA Knowledge Fee <strong>$300</strong> and Customs Innovation Fee <strong>$300</strong>. Dubai Law No. (1) of 2018 and Law No. (2) of 2018 set those at <strong>AED 10 each</strong>, not $300 each.</span></li>
+            </ul>
+            <table class="fees">
+              <caption>Charges as printed on the tax invoice</caption>
+              <thead>
+                <tr><th>Charge as printed</th><th>Basis as printed</th><th class="num">USD</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Tax Duty (5%)</td><td>Customs value $2,800.00</td><td class="num">140.00</td></tr>
+                <tr><td>JAFZA Knowledge Fee</td><td>Per declaration, fixed</td><td class="num">300.00</td></tr>
+                <tr><td>Customs Innovation Fee</td><td>Per declaration, fixed</td><td class="num">300.00</td></tr>
+                <tr><td>Terminal Handling Charges</td><td>Per shipment, fixed</td><td class="num">556.00</td></tr>
+                <tr><td>Inspection Fee</td><td>Per shipment, fixed</td><td class="num">125.00</td></tr>
+                <tr><td>Processing Fee</td><td>Per declaration, fixed</td><td class="num">24.00</td></tr>
+                <tr class="total"><td><strong>Total amount due</strong></td><td></td><td class="num">1,445.00</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="exhibit" id="exhibit-b">
+          <figure>
+            <div class="doc-frame">
+              <a href="exhibits/dubai-declaration.png" target="_blank" rel="noopener">
+                <img src="exhibits/dubai-declaration.png" alt="First page of an import declaration I was sent, Jebel Ali, June 1 2026" width="993" height="1404" />
+              </a>
+            </div>
+            <figcaption>First page of the declaration PDF I was sent. Open full size.</figcaption>
+          </figure>
+          <div class="exhibit-copy">
+            <p class="exhibit-id">Exhibit B — import declaration</p>
+            <h3>JAFZA-IMP-2026-058347</h3>
+            <p class="exhibit-meta">Header: “United Arab Emirates — Customs Import Declaration,” declaration JAFZA-IMP-2026-058347, 1 June 2026, type “Import for Home Consumption (IM4).” Importer: TTIE Co. Exporter: TTIE Co., Ltd (Klang, Malaysia). Manufacturer: IBI Group Malaysia. Incoterms on this paper: <strong>CIF — Jebel Ali</strong>. Destination country: United Arab Emirates. Hold: pending payment. Total customs value $2,800.00. A line on the same paper says “Amount Customs Invoiced / Due (USD): 2,800.00.” Line items show <strong>two</strong> efoil boards, two remotes, two component sets. Carrier is printed as “SkyCargo-MY.” An AWB number is printed as MY-176-77294053. I was never given a way to check that number on a carrier site.</p>
+            <ul class="callouts">
+              <li><span class="n">B1</span><span>Amount invoiced / due printed as <strong>$2,800.00</strong> — against Exhibit A’s <strong>$1,445.00</strong>.</span></li>
+              <li><span class="n">B2</span><span>TTIE listed as both importer (TTIE Co.) and exporter (TTIE Co., Ltd).</span></li>
+              <li><span class="n">B3</span><span>Telephone field printed as <strong>Intel</strong>.</span></li>
+              <li><span class="n">B4</span><span>Text includes “Koala Lump International Airport,” “Rebel Ali Port,” and “Al Khartoum International Airport (DWC).” Those are not how Kuala Lumpur, Jebel Ali, or Al Maktoum / DWC are written.</span></li>
+              <li><span class="n">B5</span><span>Incoterms <strong>CIF — Jebel Ali</strong>, destination UAE. The invoice I paid against says <strong>DDP USA-NY</strong>.</span></li>
+              <li><span class="n">B6</span><span>April commercial invoice is for <strong>one</strong> full set. This declaration is for two boards and two remotes.</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <div class="flags-head sec-head">
+          <span class="sec-idx">04b</span>
+          <h2>What does not line up on those two files</h2>
+        </div>
+        <ul class="flags">
+          <li><span class="n">01 · Amounts due</span> Two papers, two amounts due: the declaration says <strong>$2,800.00</strong> invoiced/due (the same number as the full customs value of the goods). The tax invoice says <strong>$1,445.00</strong>.</li>
+          <li><span class="n">02 · Shared TRN</span> The same TRN <strong>100123456340067</strong> is printed as the issuer “Dubai Customs” and as TTIE’s number. A tax authority and the company it is billing do not share one TRN on papers I have seen from a real clearance.</li>
+          <li><span class="n">03 · Declaration numbers</span> The tax invoice and the declaration use <strong>different declaration numbers</strong> (40229381-001 vs JAFZA-IMP-2026-058347).</li>
+          <li><span class="n">04 · Same company both sides</span> TTIE is listed as both importer and exporter on the declaration.</li>
+          <li><span class="n">05 · Place names</span> The declaration text includes “Koala Lump International Airport,” “Rebel Ali Port,” and “Al Khartoum International Airport (DWC).” Those are not how Kuala Lumpur, Jebel Ali, or Al Maktoum / DWC are written.</li>
+          <li><span class="n">06 · Telephone</span> Telephone on the declaration is written as “Intel.”</li>
+          <li><span class="n">07 · One set vs two</span> The April commercial invoice I have is for <strong>one</strong> full set. The declaration is for two boards and two remotes.</li>
+          <li><span class="n">08 · Knowledge / Innovation fees</span> The tax invoice charges a “JAFZA Knowledge Fee” of $300 and a “Customs Innovation Fee” of $300. Dubai Law No. (1) of 2018 and Law No. (2) of 2018 set the Knowledge Dirham and the Innovation Dirham at <strong>AED 10 each</strong> on qualifying government transactions, not $300 each.</li>
+          <li><span class="n">09 · Later totals</span> The Dubai tax invoice is <strong>$1,445</strong>. That is not the $4,245 / $4,864 / “more than $6,000” outstanding I was later asked for.</li>
+          <li><span class="n">10 · CIF vs DDP</span> The declaration says the destination is the UAE under CIF. The invoice I paid against says DDP USA-NY.</li>
+        </ul>
+        <p class="decide">A reader can decide what that means. I am listing the mismatches.</p>
+      </section>
+
+      <section id="asked">
+        <div class="sec-head">
+          <span class="sec-idx">05</span>
+          <h2>What I asked for, and was not given</h2>
+        </div>
+        <ul class="asked">
+          <li><span class="n">01</span><span>A Mirsal declaration number, or a MAKASA barcode, that I could check on an official portal. That is the part of a UAE clearance that is hard to invent on a PDF. I was not given one I could look up.</span></li>
+          <li><span class="n">02</span><span>An airway bill, bill of lading, or export declaration I could verify. I was told this was “confidential business information relating to multiple parties.” These would be papers for my own shipment.</span></li>
+          <li><span class="n">03</span><span>A live view of the crates at the warehouse (I was told the hub is in Penang, not the KL office). A still photo was offered instead.</span></li>
+          <li><span class="n">04</span><span>A yes-or-no, twice, on my own logistics company picking up from Penang Port, with a reason if no. Both times the reply moved to storage accruing daily.</span></li>
+          <li><span class="n">05</span><span>The name of the carrier for the new US move, and a carrier quote that equals the new ask.</span></li>
+          <li><span class="n">06</span><span>A single, stable outstanding figure that matches either Dubai paper.</span></li>
+          <li><span class="n">07</span><span>Escrow: they get paid when I have the goods. I said that was the only way I would send more money. That did not happen.</span></li>
+        </ul>
+      </section>
+
+      <section id="quotes">
+        <div class="sec-head">
+          <span class="sec-idx">06</span>
+          <h2>What they said, in their words</h2>
+        </div>
+        <div class="quote-stack">
+          <blockquote class="quote">
+            <p>Ming, on the later outstanding: storage was the only charge left, with “no additional cost.”</p>
+            <footer>Ming — as I have it</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Yes. The international shipping cost was already paid previously. The outstanding balance is for the accumulated storage charges and the return-to-sender costs incurred after the shipment was returned from the UAE.”</p>
+            <footer>Elaine — later written position</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Once the outstanding balance is settled, the shipment will be released from the warehouse and shipped to the USA under the agreed DDP arrangement.”</p>
+            <footer>Elaine — later written position</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“At that time, the DDP process from Malaysia to the US was not available due to the US customs/import requirements… the shipment was routed through the UAE as an alternative solution. However, the required costs in the UAE were not paid.”</p>
+            <footer>Elaine — later written position</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“The outstanding balance has already been confirmed, so there is nothing further to discuss.”</p>
+            <footer>Elaine</footer>
+          </blockquote>
+        </div>
+        <p class="quote-bridge" style="margin-top:20px">They also wrote that choosing UAE “was not our priority or our choice,” that war-related disruption affected direct DDP, and that direct DDP “is available again.” They asked me to confirm I would complete the order so storage would stop going up.</p>
+        <p class="quote-bridge">Those lines cannot all be a single story. Ming’s “storage only, no additional cost” does not sit with “it came back because UAE costs were not paid.” Elaine’s later “shipping was already paid, this is only storage and return” does not say who pays if the UAE path happens again. I asked that in writing. I did not get an answer I could take to a carrier.</p>
+      </section>
+
+      <section id="stopped">
+        <div class="sec-head">
+          <span class="sec-idx">07</span>
+          <h2>Why I stopped</h2>
+        </div>
+        <div class="close">
+          <p>I paid under a DDP line to New York. I got a FedEx path that never tracked, then a UAE path, then a return to Malaysia, then a storage bill. The story of why a direct route was impossible, then possible, was never tied to a carrier record I could check. The customs PDFs I was sent do not agree with each other, or with the later totals, or with a one-set commercial invoice. When I asked for the one official number that is hard to fake, I did not get it.</p>
+          <p>I may be wrong about a point of customs practice. I am not wrong that I was asked to send more money to the same parties after that sequence, without escrow.</p>
+        </div>
+      </section>
+
+      <section id="others">
+        <div class="sec-head">
+          <span class="sec-idx">08</span>
+          <h2>If you dealt with the same names</h2>
+        </div>
+        <div class="others">
+          <p style="margin:0">I am one buyer with one file. If you have an IBI Group / TTIE / Mingonn efoil order and papers that match or contradict this, keep your own records. I am not collecting a pile of anonymous claims on this page.</p>
+        </div>
+      </section>
     </div>
-
-    <div class="exhibit">
-      <h3>Exhibit B — import declaration</h3>
-      <p>Header: “United Arab Emirates — Customs Import Declaration,” declaration JAFZA-IMP-2026-058347, 1 June 2026, type “Import for Home Consumption (IM4).” Importer: TTIE Co. Exporter: TTIE Co., Ltd (Klang, Malaysia). Manufacturer: IBI Group Malaysia. Incoterms on this paper: <strong>CIF — Jebel Ali</strong>. Destination country: United Arab Emirates. Hold: pending payment. Total customs value $2,800.00. A line on the same paper says “Amount Customs Invoiced / Due (USD): 2,800.00.” Line items show <strong>two</strong> efoil boards, two remotes, two component sets. Carrier is printed as “SkyCargo-MY.” An AWB number is printed as MY-176-77294053. I was never given a way to check that number on a carrier site.</p>
-      <figure>
-        <img src="exhibits/dubai-declaration.png" alt="First page of an import declaration I was sent, Jebel Ali, June 1 2026" />
-        <figcaption>First page of the declaration PDF I was sent.</figcaption>
-      </figure>
-    </div>
-
-    <h3>What does not line up on those two files</h3>
-    <ul class="flags">
-      <li>Two papers, two amounts due: the declaration says <strong>$2,800.00</strong> invoiced/due (the same number as the full customs value of the goods). The tax invoice says <strong>$1,445.00</strong>.</li>
-      <li>The same TRN <strong>100123456340067</strong> is printed as the issuer “Dubai Customs” and as TTIE’s number. A tax authority and the company it is billing do not share one TRN on papers I have seen from a real clearance.</li>
-      <li>The tax invoice and the declaration use <strong>different declaration numbers</strong> (40229381-001 vs JAFZA-IMP-2026-058347).</li>
-      <li>TTIE is listed as both importer and exporter on the declaration.</li>
-      <li>The declaration text includes “Koala Lump International Airport,” “Rebel Ali Port,” and “Al Khartoum International Airport (DWC).” Those are not how Kuala Lumpur, Jebel Ali, or Al Maktoum / DWC are written.</li>
-      <li>Telephone on the declaration is written as “Intel.”</li>
-      <li>The April commercial invoice I have is for <strong>one</strong> full set. The declaration is for two boards and two remotes.</li>
-      <li>The tax invoice charges a “JAFZA Knowledge Fee” of $300 and a “Customs Innovation Fee” of $300. Dubai Law No. (1) of 2018 and Law No. (2) of 2018 set the Knowledge Dirham and the Innovation Dirham at <strong>AED 10 each</strong> on qualifying government transactions, not $300 each.</li>
-      <li>The Dubai tax invoice is <strong>$1,445</strong>. That is not the $4,245 / $4,864 / “more than $6,000” outstanding I was later asked for.</li>
-      <li>The declaration says the destination is the UAE under CIF. The invoice I paid against says DDP USA-NY.</li>
-    </ul>
-    <p>A reader can decide what that means. I am listing the mismatches.</p>
-
-    <h2>What I asked for, and was not given</h2>
-    <ul>
-      <li>A Mirsal declaration number, or a MAKASA barcode, that I could check on an official portal. That is the part of a UAE clearance that is hard to invent on a PDF. I was not given one I could look up.</li>
-      <li>An airway bill, bill of lading, or export declaration I could verify. I was told this was “confidential business information relating to multiple parties.” These would be papers for my own shipment.</li>
-      <li>A live view of the crates at the warehouse (I was told the hub is in Penang, not the KL office). A still photo was offered instead.</li>
-      <li>A yes-or-no, twice, on my own logistics company picking up from Penang Port, with a reason if no. Both times the reply moved to storage accruing daily.</li>
-      <li>The name of the carrier for the new US move, and a carrier quote that equals the new ask.</li>
-      <li>A single, stable outstanding figure that matches either Dubai paper.</li>
-      <li>Escrow: they get paid when I have the goods. I said that was the only way I would send more money. That did not happen.</li>
-    </ul>
-
-    <h2>What they said, in their words</h2>
-    <p>Ming, on the later outstanding: storage was the only charge left, with “no additional cost.”</p>
-    <p class="quote">“Yes. The international shipping cost was already paid previously. The outstanding balance is for the accumulated storage charges and the return-to-sender costs incurred after the shipment was returned from the UAE.”</p>
-    <p class="quote">“Once the outstanding balance is settled, the shipment will be released from the warehouse and shipped to the USA under the agreed DDP arrangement.”</p>
-    <p class="quote">“At that time, the DDP process from Malaysia to the US was not available due to the US customs/import requirements… the shipment was routed through the UAE as an alternative solution. However, the required costs in the UAE were not paid.”</p>
-    <p class="quote">“The outstanding balance has already been confirmed, so there is nothing further to discuss.”</p>
-    <p>They also wrote that choosing UAE “was not our priority or our choice,” that war-related disruption affected direct DDP, and that direct DDP “is available again.” They asked me to confirm I would complete the order so storage would stop going up.</p>
-    <p>Those lines cannot all be a single story. Ming’s “storage only, no additional cost” does not sit with “it came back because UAE costs were not paid.” Elaine’s later “shipping was already paid, this is only storage and return” does not say who pays if the UAE path happens again. I asked that in writing. I did not get an answer I could take to a carrier.</p>
-
-    <h2>Why I stopped</h2>
-    <p>I paid under a DDP line to New York. I got a FedEx path that never tracked, then a UAE path, then a return to Malaysia, then a storage bill. The story of why a direct route was impossible, then possible, was never tied to a carrier record I could check. The customs PDFs I was sent do not agree with each other, or with the later totals, or with a one-set commercial invoice. When I asked for the one official number that is hard to fake, I did not get it.</p>
-    <p>I may be wrong about a point of customs practice. I am not wrong that I was asked to send more money to the same parties after that sequence, without escrow.</p>
-
-    <h2>If you dealt with the same names</h2>
-    <p>I am one buyer with one file. If you have an IBI Group / TTIE / Mingonn efoil order and papers that match or contradict this, keep your own records. I am not collecting a pile of anonymous claims on this page.</p>
   </main>
-  <footer>
-    <p>Page by Ian Schechter. Built as a public record of my order. Not legal advice. Not a government filing.</p>
-    <p>Company names are used to identify who I paid and who wrote to me. I do not operate IBI Group or TTIE.</p>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>Page by Ian Schechter. Built as a public record of my order. Not legal advice. Not a government filing.</p>
+      <p>Company names are used to identify who I paid and who wrote to me. I do not operate IBI Group or TTIE.</p>
+    </div>
   </footer>
 </body>
 </html>
